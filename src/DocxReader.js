@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import Papa from "papaparse";
 
-
-
-
 const DocxReader = () => {    
-
-
+  
   const onFileUpload = (event) => {
     const reader = new FileReader();
     let file = event.target.files[0];
